@@ -1,0 +1,104 @@
+/* === Reset Dasar === */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url(images/Background\ html\ 1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 20px;
+  color: #000000;
+}
+
+/* === Judul === */
+h1, h2, h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* === Box Konten === */
+.box {
+  background: #fbf7f7cc; /* sedikit transparan biar teks terbaca */
+  border: 1px solid #0b0b0d92;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* === Judul Section dengan Border-Left === */
+.section-title {
+  padding-left: 15px;
+  border-left: 4px solid #0f12cf;
+  margin-bottom: 10px;
+}
+
+/* === Gambar === */
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #e7e8f3;
+  display: block;
+  margin: 10px auto;
+}
+
+.gambar-container {
+  gap: 20px 
+}
+.gambar-container img {
+  width: 120px;
+  border-radius: 8px;
+}
+
+
+/* === Link === */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #e41010;
+  text-decoration: underline;
+}
+{
+  
+}
+
+.section-title {
+  padding-left: 10px;      /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #22c55e; /* garis aksen di kiri */
+}
+
+.judul{
+  text-align: center;
+  color: #08080c;
+}
+.text_info{
+  text-align: center;
+  color: gray;
+  margin-top: -20px;
+}
+.box-judul {
+  background: #fbf7f7cc; /* sedikit transparan biar teks terbaca */
+  border: 1px solid #0b0b0d92;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin: 10px;
+}
+.tulisan-judul{
+  color: #0f12cf;
+  margin: 20px;
+  text-align: center ;
+  width: ;
+  height: 25;
+  
+}
+img{
+  height: 150px ;
+  width: px;
+}
+
+.tokoh{
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+}
