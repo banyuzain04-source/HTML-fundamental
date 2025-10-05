@@ -1,0 +1,168 @@
+/* === Reset Dasar === */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url(images/Background-html-1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 20px;
+  color: #000000;
+}
+
+/* === Judul === */
+h1, h2, h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* === Box Konten === */
+.box {
+  background: #fbf7f7cc;
+  border: 1px solid #0b0b0d92;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* === Section Title === */
+.section-title {
+  padding-left: 10px;
+  border-left: 4px solid #1f3a93;
+  margin-bottom: 10px;
+}
+
+/* === Navigasi Menu === */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  border: 
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  background-color: #1f3a93;
+  color: #fff;
+}
+
+.nav a .active {
+  background-color: #1f3a93;
+  color: #fff;
+}
+
+/* === Gambar === */
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #e7e8f3;
+  display: block;
+  margin: 10px auto;
+}
+.foto-abstrak {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #e7e8f3;
+  display: block;
+  margin: 10px auto;
+}
+.tokoh {
+  margin: 20px auto;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+}
+
+/* === Header Box === */
+.judul {
+  text-align: center;
+  color: #08080c;
+}
+.text_info {
+  text-align: center;
+  color: gray;
+  margin-top: -10px;
+}
+.box-judul {
+  background: #fbf7f7cc;
+  border: 1px solid #0b0b0d92;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.tulisan-judul {
+  color: #0f12cf;
+  margin: 10px;
+}
+
+.gambar-container {
+  gap: 20px 
+}
+.gambar-container img {
+  width: 120px;
+  border-radius: 8px;
+}
+
+.tokoh{
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+}
+
+.gallery{
+  text-align: center;
+
+}
+
+.gallery h2{
+  color: cornflowerblue;
+  font-size: 34px;
+}
+
+.gallery .card{
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid; 
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery .card img{
+  width: 100%;
+  height: ;
+  object-fit: cover;
+}
+
+.gallery .card .figcaption{
+  background-color: cornflowerblue;
+  color: white;
+  padding: 8px;
+  margin-top: -7px;
+
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse; /* biar garis tabel nyambung */
+ }
+ th, td {
+ border: 1px solid #333;
+ padding: 8px;
+ text-align: center;
+ }
+
+ th {
+ background: #1e3a8a; /* biru */
+ color: white;
+ }
+ .abu { background: #f2f2f2; } /* warna baris genap */
