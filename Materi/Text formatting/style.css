@@ -1,0 +1,84 @@
+.text-center{
+    text-align: center;
+}
+
+.text-kiri{
+    text-align: left;
+}
+
+.text-kanan{
+    text-align: right;
+}
+
+.text-rata{
+    text-align: justify;
+}
+
+.text-tengah{
+    text-align: center;
+}
+
+.menyala{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+.gelap{
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.button-save{
+    text-decoration: none;
+    background: darkblue;
+    color: white;
+    padding: 6px 10px;
+}
+
+.coret{
+    text-decoration: line-through;
+}
+
+.text-rendah{
+    line-height: 0,9;
+    background-color: yellow;
+    padding: 4px;
+}
+.text-tinggi{
+    line-height: 1,5;
+    background-color: greenyellow;
+    padding: 4px;
+}
+
+.text-padat{
+    letter-spacing: 0,5;
+    background-color: pink;
+    padding: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text-longgar{
+    letter-spacing: 2;
+    background-color: plum;
+    padding: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-selaw{
+    letter-spacing: 4px;
+    background-color: tomato;
+    padding: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: aliceblue;
+}
+
+@font-face{
+    font-family: "Font Digital";
+    src: url(Manga\ Style.ttf);
+}
+
+.digital{
+    font-family: "Font Digital";
+}
