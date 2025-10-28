@@ -1,0 +1,118 @@
+.grid{
+
+}
+
+.area {
+    background: whitesmoke;
+    height: 100px;
+    width: 1200px;
+
+    place-content: center ;
+    border: 2px solid #dfdfdf;
+    border-radius: 6px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.alert{
+    width: 1200px; 
+    background: gray;
+  border-radius: 8px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  
+  
+}
+
+.flex-area{
+  display: flex;
+  justify-content: center;
+  /* gap cuma di flex untuk jarak antar item*/
+  gap: 12px;
+  /* prperti mengatur posisi item pada sumbu */
+  align-items: center;
+  text-align: center;
+  border: solid 2px whitesmoke;
+  background: slategray;
+  position: relative;
+  left: 0;
+  right: 40px;
+}
+.flex-area2{
+  display: flex;
+  justify-content: center;
+  /* gap cuma di flex untuk jarak antar item*/
+  gap: 12px;
+  /* prperti mengatur posisi item pada sumbu */
+  align-items: center;
+  border: solid 1px slategray;
+  background: whitesmoke;
+  position: relative;
+  margin: 10px 30px;
+  border-radius: 8px;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0.1);
+    background-color: #f0f9ff;
+    width: 185px;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+
+.card {
+
+}
+
+.avatar{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.badge{
+    position: absolute;
+    top: 0px;
+    right:0 ;
+    background: #22c55e;
+    border-radius: 8px;
+    color: white;
+    font-size: 10px;
+    padding: 3px 6px;
+}
+
+.info-label{
+ position: absolute;
+ left: 0px ;
+ top: 10px ;
+ text-align: left;
+
+}
+
+
+
+
+
+

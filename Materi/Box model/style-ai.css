@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.box, .pos {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-content: center;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+/* Box Model Example */
+#box-a { background: khaki; }
+#box-b { background: yellow; padding: 15px; }
+#box-c { background: yellowgreen; padding: 15px; border: 3px solid #333; }
+#box-d { background: orange; padding: 15px; border: 3px solid #333; margin: 30px; }
+
+/* Position Example */
+.pos { background: lightgray; }
+
+#static { position: static; background: pink; }
+#relative { position: relative; background: lightgreen; top: 15px; left: 15px; }
+#absolute { position: absolute; background: tomato; top: 50px; right: 100px; }
+#fixed { position: fixed; background: skyblue; bottom: 10px; right: 10px; }

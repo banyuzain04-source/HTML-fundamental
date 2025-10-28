@@ -1,0 +1,36 @@
+header{
+    background: #a8e4f9;
+}
+
+nav{
+    background: #60c3e7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    gap: 12px;
+}
+
+nav li a{
+    color: white;
+    background: #3ea3c8;
+}
+
+/* atur css di ukuran layar tertentu */
+/* DEkstop x laptop ++: 1024px */
+@media screen and (min-width: 1024px) {
+    header{
+        background-color: gold;
+    }
+}
+
+/* Tablet: 768-1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    header{
+        background-color: orange;
+    }
+}

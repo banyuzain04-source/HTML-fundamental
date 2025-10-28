@@ -1,0 +1,36 @@
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #dfdfdf;
+  border-radius: 6px;
+}
+ 
+.flex-area{
+  display: flex;
+  justify-content: center;
+  /* gap cuma di flex untuk jarak antar item*/
+  gap: 12px;
+  /* prperti mengatur posisi item pada sumbu */
+  align-items: center;
+}
+
+.border-blue{
+  border-color: blue;
+  height: 220px;
+  width: 220px;
+}
+
+.alert{
+  width: 600px; 
+  background: #bedef8;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.alert button{
+  background: rgb(28, 28, 123);
+}
